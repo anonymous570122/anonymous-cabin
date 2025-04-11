@@ -96,7 +96,7 @@ To produce candidate prompts using an LLM (we utilized GPT-4o), please configure
 2. **Generate Prompts**:
     After establishing the `.env` file, run the following command to produce prompts:
     ```bash
-    python extract_candidate_via_llm.py --dataname pets
+    python extract_candidate_via_llm.py --dataname caltech
     ```
 
 ## Image Synthesis and Two-Stage Classifier Training
